@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sentimentário — 25 palavras e as coisas que elas despertam em mim.">
+<title>Sentimentário — 25 palavras sobre mim</title>
+<style>
+  :root {
+    --bg: #f5f1eb;
+    --paper: #fffdf9;
+    --ink: #292522;
+    --muted: #766f68;
+    --line: #ded6cc;
+    --accent: #7b5c55;
+    --accent-dark: #5d433d;
+    --shadow: 0 12px 35px rgba(50, 40, 30, .08);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.65;
+  }
+
+  .hero {
+    min-height: 72vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 70px 24px;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(123,92,85,.10), transparent 30%),
+      radial-gradient(circle at 80% 70%, rgba(123,92,85,.08), transparent 30%),
+      var(--bg);
+  }
+
+  .hero-inner { max-width: 780px; }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    font: 600 12px/1.4 Arial, sans-serif;
+    color: var(--accent);
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 10vw, 92px);
+    line-height: .95;
+    font-weight: 400;
+    margin: 0 0 26px;
+  }
+
+  .subtitle {
+    max-width: 620px;
+    margin: auto;
+    font-size: clamp(18px, 3vw, 22px);
+    color: var(--muted);
+  }
+
+  .scroll {
+    display: inline-block;
+    margin-top: 42px;
+    padding: 12px 20px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--accent-dark);
+    text-decoration: none;
+    font: 600 13px Arial, sans-serif;
+  }
+
+  main {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 30px 20px 90px;
+  }
+
+  .intro {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: clamp(28px, 6vw, 55px);
+    margin-bottom: 45px;
+    box-shadow: var(--shadow);
+  }
+
+  .intro h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .intro p {
+    max-width: 760px;
+    color: #5f5953;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: 27px;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+  }
+
+  .number {
+    font: 700 11px Arial, sans-serif;
+    letter-spacing: .18em;
+    color: var(--accent);
+  }
+
+  .card h3 {
+    margin: 7px 0 10px;
+    font-size: 27px;
+    font-weight: 400;
+  }
+
+  .card p {
+    margin: 0 0 20px;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  .link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent-dark);
+    font: 700 13px Arial, sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 3px;
+  }
+
+  .link:hover { opacity: .7; }
+
+  footer {
+    text-align: center;
+    padding: 45px 20px 70px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  footer strong {
+    color: var(--ink);
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  @media (max-width: 700px) {
+    .hero { min-height: 68vh; padding: 50px 20px; }
+    .grid { grid-template-columns: 1fr; }
+    .card { padding: 24px; }
+    main { padding-left: 14px; padding-right: 14px; }
+  }
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Trabalho de Psicologia</div>
+    <h1>Sentimentário</h1>
+    <p class="subtitle">
+      25 palavras, 25 significados e as coisas que cada uma delas desperta em mim.
+    </p>
+    <a class="scroll" href="#palavras">Entrar no sentimentário ↓</a>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <h2>Antes de começar</h2>
+    <p>
+      Um sentimentário não é exatamente um dicionário. Aqui, as palavras não são
+      definidas apenas pelo seu significado convencional, mas pela maneira como
+      elas existem dentro de mim.
+    </p>
+    <p>
+      Cada palavra abaixo está ligada a alguma coisa que me faz lembrá-la:
+      uma música, um poema, uma fotografia, um filme, uma obra ou qualquer outra
+      referência que tenha significado para mim.
+    </p>
+    <p>
+      <em>Clique nos links para descobrir o que existe por trás de cada palavra.</em>
+    </p>
+  </section>
+
+  <section id="palavras" class="grid">
+
+    <!--
+      MODELO:
+      Para cada cartão, altere:
+      1. O título entre <h3>
+      2. O texto entre <p>
+      3. O endereço dentro de href="..."
+      4. O texto do link
+
+      Você pode usar links do YouTube, Spotify, sites de poemas,
+      imagens, filmes, páginas etc.
+    -->
+
+    <article class="card">
+      <span class="number">01</span>
+      <h3>Saudade</h3>
+      <p>Escreva aqui o que a palavra “saudade” significa para você.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ A música que me lembra</a>
+    </article>
+
+    <article class="card">
+      <span class="number">02</span>
+      <h3>Esperança</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ O que ela me lembra</a>
+    </article>
+
+    <article class="card">
+      <span class="number">03</span>
+      <h3>Medo</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">04</span>
+      <h3>Amor</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://open.spotify.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">05</span>
+      <h3>Solidão</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">06</span>
+      <h3>Liberdade</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">07</span>
+      <h3>Infância</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">🖼 Uma imagem</a>
+    </article>
+
+    <article class="card">
+      <span class="number">08</span>
+      <h3>Memória</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">09</span>
+      <h3>Tempo</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">10</span>
+      <h3>Silêncio</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">11</span>
+      <h3>Coragem</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">12</span>
+      <h3>Ansiedade</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">13</span>
+      <h3>Desejo</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">14</span>
+      <h3>Perda</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">15</span>
+      <h3>Conforto</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">16</span>
+      <h3>Futuro</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">17</span>
+      <h3>Solidariedade</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">18</span>
+      <h3>Identidade</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">🖼 Uma imagem</a>
+    </article>
+
+    <article class="card">
+      <span class="number">19</span>
+      <h3>Mudança</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">20</span>
+      <h3>Amizade</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://open.spotify.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">21</span>
+      <h3>Solidão</h3>
+      <p>Você pode trocar esta palavra por outra que tenha significado para você.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">22</span>
+      <h3>Gratidão</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">23</span>
+      <h3>Saúde</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ Uma referência</a>
+    </article>
+
+    <article class="card">
+      <span class="number">24</span>
+      <h3>Sonho</h3>
+      <p>Escreva aqui o seu significado pessoal para esta palavra.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">♪ Uma música</a>
+    </article>
+
+    <article class="card">
+      <span class="number">25</span>
+      <h3>Eu</h3>
+      <p>Para terminar, uma palavra que talvez reúna todas as outras.</p>
+      <a class="link" href="https://www.youtube.com/" target="_blank" rel="noopener">↗ O que me representa</a>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <strong>“As palavras são as mesmas. O significado é meu.”</strong>
+  <br><br>
+  Sentimentário · Trabalho de Psicologia
+</footer>
+
+</body>
+</html>
